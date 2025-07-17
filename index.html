@@ -8,21 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" media="screen and (max-width:576px)" href="mobile.css">
 </head>
 <body>
 
     <header>
         <nav>
-            <h3>Dot Architect</h3>
-            <ul>
+          <div class="nav-left">
+              <h3 class="brand-name"><span id="dot">Dot</span> Architect</h3>
+           
+          </div>
+            <div class="nav-right">
+                 <ul>
                 <li><a href="Home">Home</a></li>
                 <li><a href="Home">About</a></li>
                 <li><a href="Home">Menu</a></li>
                 <li><a href="Home">Contact us</a></li>
             </ul>
-            <button>Login</button>
+                <input id="Search" type="text" placeholder="Search">
+            <button class="login">Login</button>
+            </div>
+            <img class="menus" src="assets/icons/menu.png" alt="">
         </nav>
-        <section><img src="assets/banner.png" alt=""></section>
+        <section class="hero">
+            <div class="hero-info">
+                <h1 class="hero-title">Brand New 
+                Group of Architects </h1>
+                <p class="hero-sub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                <button class="hero-btn">Explore More</button>
+            </div>
+            <img class="hero-img" src="assets/banner.png" alt="">
+        </section>
     </header>
     
     <!-- header end -->
@@ -30,19 +47,19 @@
 
     
     <main>
-        <section>
+        <section class="feature">
             <div class="left-feature">
-                <img src="assets/team1.png" alt="">
-                <img src="assets/team2.png" alt="">
-                <img src="assets/team3.png" alt="">
-                <img src="assets/team4.png" alt="">
+                <img class="team" src="assets/team1.png" alt="">
+                <img class="team" src="assets/team2.png" alt="">
+                <img class="team" src="assets/team3.png" alt="">
+                <img class="team" src="assets/team4.png" alt="">
             </div>
             <div class="right-feature">
-                <h4>
-                    <span id="quick-t">Quick list</span> of Our <span id="feature-t">Features</span>
+                <h4 class="featu">
+                    <span id="quick-t"><span id="lis">Quick list</span></span> of Our <span id="feature-t">Features</span>
                 </h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
-                <button>Explore Now</button>
+                <p class="f-info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                <button class="hero-btn">Explore Now</button>
             </div>
         </section>
         <!-- Quick feature end -->
@@ -50,7 +67,7 @@
                 <div class="cart-left-side">
                     <div class="f-heading">
                         <h4 class="enjoy-fe">Features you will love & enjoy</h4>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                    <p class="enjoy-sub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
                     </div>
                 <div class="carts">
                     <div class="cart">
@@ -73,23 +90,26 @@
                         <p id="cart-body">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........
                         </p>
                     </div>
-                </div>
-                </div>
+                  </div>
+                 </div>
+                  <button class="experience-btn">10+Year <br>
+                <span id="exp">experience</span></button>
+                      <div class="img-right-right">
+                <img src="assets/architect.png" alt="">
+               
+            </div>
 
 
-                <div class="img-right-right">
-                    <img src="assets/architect.png" alt="">
-                    <button class="experience-btn">10+Year <br>
-                    <span>experience</span></button>
-                </div>
+                 
          </section>
+    
 
          <!-- feature end here -->
 
          <section class="facts">
             <div class="fact-info">
                 <h4>Some Facts</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                <p class="enjoy-sub" >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
             </div>
             <div class="fact-carts">
                 <div class="fact-cart">

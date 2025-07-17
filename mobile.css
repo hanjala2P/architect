@@ -1,0 +1,39 @@
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: lightblue;
+    margin: 0 20px;
+  }
+   nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .menus{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .nav-right{
+    display: none;
+
+  }
+  .brand-name{
+    font-size: 24px;
+  }
+
+/* nav end here */
+
+/* hero start here */
+.hero-title{
+    font-size: 48px;
+}
+.font-sub{
+    font-size: 14px;
+}
+/* hero end here */
+
+
+
+
+}
