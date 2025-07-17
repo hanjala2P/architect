@@ -18,6 +18,7 @@ body{
 /* header section start here */
 header{
     background-color: var(--bg);
+    padding: 0 20px;
 }
 nav{
     display: flex;
@@ -173,6 +174,7 @@ h4{
 .enjoy-sub{
     width: 586px;
     color: var(--dark3);
+    margin-top: -38px;
 }
 #cart-body{
     color: var(--dark3);
@@ -199,6 +201,7 @@ h4{
 .carts-img{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .cart-left-side{
     width:586px ;
@@ -220,10 +223,10 @@ h4{
     border-radius: 8px;
     font-size:64px ;
     font-weight: 800;
-    text-align: center;
+    text-align: center; 
+   margin-top: 980px;
    
- 
-   
+    z-index: 2;
     
     
 }
@@ -232,7 +235,7 @@ h4{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
+    
     
 }
 
@@ -240,8 +243,85 @@ h4{
 
 /* fact start here */
 
-.cart-fact{
-    
+.fact-carts{
+    display: flex;
+   gap: 124px;
+   margin: 0 auto;
+   align-items: center;
+   justify-content: center;
+   
+}
+.fact-cart{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 242px;
+    width: 242px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  var(--main);
+    border-radius: 8px;
+    gap: 16px;
+    margin-top: 32px;
+}
+.rewa{
+    font-size: 20px;
+    color: dark3;
+    text-align: center;
+    margin-top: -70px;
+}
+.num{
+    color: var(--dark2);
+    font-size: 44px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1px;
+   
+}
+.facts{
+    align-items: center;
+}
+/* fact end here */
+
+/* sponsors */
+.spo{
+    text-align: center;
+}
+.spo-sub{
+    text-align: center;
+    color: var(--dark3);
+    width: 500px;
+    margin-top: -30px;
+}
+.spon-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer img{
+    height:50px ;
+}
+.spon-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+
+}
+footer{
+    padding: 0 20px;
 }
 
-/* fact end here */
+.copyright{
+    display: flex;
+    background-color: var(--bg);
+    height:100px ;
+    color: var(--dark3);
+    text-align: center;align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    
+}
+section{
+    padding: 0 20px;
+}
